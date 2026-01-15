@@ -8,7 +8,6 @@ function startBot() {
         port: 55920,                
         username: 'Gui',
         offline: true,
-        version: '1.20.10' // Verifique se esta é a versão exata do seu servidor
     });
 
     client.on('spawn', () => {
